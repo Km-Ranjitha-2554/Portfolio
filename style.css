@@ -18,6 +18,37 @@ header {
   padding: 3rem 1rem;
   border-bottom: 5px solid #fff;
 }
+.resume-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    transform: scale(1.05);
+}
+
+.btn.view {
+    background: linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+.btn.view:hover {
+    background: linear-gradient(135deg, #ee0979, #ff6a00);
+}
+
 
 /* ----------------- Header Navigation Links ----------------- */
 header nav a {
@@ -155,3 +186,4 @@ section a, section button {
     height: 120px;
   }
 }
+
